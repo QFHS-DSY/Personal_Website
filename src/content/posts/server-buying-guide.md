@@ -5,7 +5,7 @@ pinned: false
 description: 分享个人服务器选购过程中的经验、踩坑与心得。
 tags: ["VPS", "云服务", "个人经验"]
 category: Technology
-draft: true
+draft: false
 ---
 
 # 个人服务器购买心得与体验

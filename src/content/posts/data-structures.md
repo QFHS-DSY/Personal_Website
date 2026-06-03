@@ -5,7 +5,7 @@ pinned: false
 description: 数据结构模板及常见例题，包括并查集、树状数组、线段树、莫队等。
 tags: ["数据结构", "算法", "ACM"]
 category: Technology
-draft: true
+draft: false
 ---
 ## 第八章：数据结构
 

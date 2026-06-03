@@ -5,7 +5,7 @@ description: "How to use this blog template."
 image: "./cover.webp"
 tags: []
 category: Guides
-draft: false
+draft: true
 ---
 
 
