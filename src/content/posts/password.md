@@ -1,15 +1,16 @@
 ---
-title: Encrypted Post
-published: 2024-01-15
-description: This is an article for testing the page encryption feature
+title: Password
+published: 2026-06-01
+description: This is a note for password
 encrypted: true
 pinned: true
-password: "123456"
-passwordHint: "123456"
+password: "luoyegg@046010"
+passwordHint: "落叶归根"
 hideHomeContent: true
 alias: "encrypted-example"
-tags: ["Test", "Encryption"]
+tags: []
 category: "Technology"
+draft: false
 ---
 
 This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).

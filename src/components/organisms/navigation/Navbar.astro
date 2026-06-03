@@ -104,6 +104,9 @@ const iconWebpSrc = hasIconPngFallback
             <div class="flex flex-row items-center text-md">
 				{/* 使用navbarTitle配置或默认配置 */}
                 {siteConfig.navbarTitle ? (
+                    siteConfig.navbarTitle.mode === "text" ? (
+                        <span class="dark:text-white text-black">{siteConfig.navbarTitle.text}</span>
+                    ) : (
                     siteConfig.navbarTitle.mode === "logo" ? (
                         hasLogoPngFallback ? (
                             <picture>
@@ -125,6 +128,7 @@ const iconWebpSrc = hasIconPngFallback
                             )}
                             <span class="dark:text-white text-black">{siteConfig.navbarTitle.text}</span>
                         </>
+                    )
                     )
                 ) : (
                     <>

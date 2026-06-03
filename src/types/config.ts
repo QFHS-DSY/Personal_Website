@@ -55,7 +55,7 @@ export interface SiteConfig {
 
 	// 顶栏标题配置
 	navbarTitle?: {
-		mode?: "text-icon" | "logo"; // 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
+		mode?: "text" | "text-icon" | "logo"; // 显示模式："text" 仅显示文字，"text-icon" 显示图标+文本，"logo" 仅显示Logo
 		text: string; // 顶栏标题文本
 		icon?: string; // 顶栏标题图标路径
 		logo?: string; // 网站Logo图片路径

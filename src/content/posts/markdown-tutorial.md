@@ -1,9 +1,9 @@
 ---
 title: Markdown Tutorial
 published: 2025-01-20
-pinned: true
+pinned: false
 description: A simple example of a Markdown blog post.
-tags: [Markdown, Blogging]
+tags: []
 category: Examples
 licenseName: "Unlicensed"
 author: emn178
