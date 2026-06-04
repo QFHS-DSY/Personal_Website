@@ -1,5 +1,5 @@
 # 构建
-pnpm build
+./deploy.sh
 
 # 上传
 rsync -avz --delete dist/ root@23.80.82.133:/www/sites/luoyegg.com/index/

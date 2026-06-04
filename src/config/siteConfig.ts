@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
 		skills: true, // 技能页面开关
 		timeline: true, // 时间线页面开关
 		albums: true, // 相册页面开关
-		devices: true, // 设备页面开关
+		devices: false, // 设备页面开关
 	},
 
 	// 顶栏标题配置
@@ -108,16 +108,16 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
+				"/assets/desktop-banner/1.jpg",
+				"/assets/desktop-banner/2.jpg",
+				"/assets/desktop-banner/3.jpg",
+				"/assets/desktop-banner/4.jpg",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
+				"/assets/mobile-banner/1.jpg",
+				"/assets/mobile-banner/2.jpg",
+				"/assets/mobile-banner/3.jpg",
+				"/assets/mobile-banner/4.jpg",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
