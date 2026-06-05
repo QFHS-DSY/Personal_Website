@@ -9,7 +9,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		id: 1,
 		title: "落叶归根",
 		artist: "王力宏",
-		cover: "assets/music/cover/歌.jpg",
+		cover: "assets/music/cover/歌.webp",
 		url: "assets/music/url/落叶归根.mp3",
 		duration: 0,
 	},

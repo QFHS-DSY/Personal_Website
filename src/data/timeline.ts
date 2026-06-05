@@ -1,18 +1,19 @@
 import type { TimelineItem } from "../components/features/timeline/types";
 
 export const timelineData: TimelineItem[] = [
+
 	{
 		id: "current-study",
-		title: "Studying Computer Science and Technology",
+		title: "Studying Information Security",
 		description:
-			"Currently studying Computer Science and Technology, focusing on web development and software engineering.",
+			"Currently studying Information Security, focusing on software engineering and Information Security.",
 		type: "education",
-		startDate: "2022-09-01",
-		location: "Beijing",
-		organization: "Beijing Institute of Technology",
-		skills: ["Java", "Python", "JavaScript", "HTML/CSS", "MySQL"],
+		startDate: "2025-08-24",
+		location: "ShenYang",
+		organization: "Northeastern University",
+		skills: ["Java", "C/C++"],
 		achievements: [
-			"Current GPA: 3.6/4.0",
+			"Current GPA: 3.533/5.0",
 			"Completed data structures and algorithms course project",
 			"Participated in multiple course project developments",
 		],
@@ -20,6 +21,7 @@ export const timelineData: TimelineItem[] = [
 		color: "#059669",
 		featured: true,
 	},
+	/*
 	{
 		id: "mizuki-blog-project",
 		title: "Mizuki Personal Blog Project",
@@ -183,4 +185,5 @@ export const timelineData: TimelineItem[] = [
 		icon: "material-symbols:code",
 		color: "#7C3AED",
 	},
+	*/
 ];
