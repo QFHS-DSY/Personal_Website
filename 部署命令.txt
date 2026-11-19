@@ -1,5 +1,15 @@
-# 构建
+# 只构建，不上传
 ./deploy.sh
+Set-Location 'F:\Github\Personal_Website'
+& 'C:\Program Files\Git\bin\bash.exe' ./deploy.sh
 
-# 上传
-rsync -avz --delete dist/ root@23.80.82.133:/www/sites/luoyegg.com/index/
+# 一键构建并发布（Git Bash）
+./deploy.sh --publish
+
+# 一键构建并发布（PowerShell）
+Set-Location 'F:\Github\Personal_Website'
+& 'C:\Program Files\Git\bin\bash.exe' ./deploy.sh --publish
+
+# 发布依赖 ssh hostwin；Windows 本地无需安装 rsync。
+# 脚本先备份线上目录，再覆盖同名文件，不删除线上多余文件。
+# 上传文件和备份保留在服务器的 /root/luoyegg-release.* 目录，需定期检查磁盘空间。

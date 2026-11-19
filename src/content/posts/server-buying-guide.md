@@ -1,14 +1,14 @@
 ---
-title: 个人服务器购买心得与体验
+title: 服务器购买心得
 published: 2026-06-03
 pinned: false
-description: 分享个人服务器选购过程中的经验、踩坑与心得。
+description: 分享个人服务器选购心得。
 tags: ["VPS", "云服务", "个人经验"]
 category: Technology
 draft: false
 ---
 
-# 个人服务器购买心得与体验
+# 个人服务器购买心得
 
 记录我在选购和部署个人服务器过程中的一些经验和思考。
 
@@ -24,7 +24,7 @@ draft: false
 
 常见的有阿里云、腾讯云、AWS、Vultr 等，各有利弊。
 阿里云正常购买非常昂贵，学生的300减免聊胜于无，但是新人都会有一台低价轻量服务器的购买机会
-于是鼠鼠就入了一台68r/月的2v2g的服务器作为入门
+于是我就入了一台68r/月的2v2g的服务器作为入门
 
 主服是（Moca学长推荐的）Hostdzire的米国🐔
 配置是3v6g100g500Mbps，64🔪/三年，价格合适
@@ -33,5 +33,11 @@ draft: false
 
 ### 2. 服务器用途
 
-主服搭了这个个人主页和sub2api（为什么我刚搭完，gpt的低价号就没了）
-阿里云的搭了个QQbot
+Hostdxire:
+1.个人主页（luoyegg.com）
+2.sub2api（为什么我刚搭完，bug team就没了）
+3.一个给先锋小登做面前算法题的OJ（https://oj.neupioneer.team/   已停止使用）
+4.一个QQ/Telegram BOT（由于境外服务器的Linux QQ三天两头掉登录随放弃，转用迷你主机跑）
+
+HK机
+1.IPV6免流代理
