@@ -1,15 +1,16 @@
-# 只构建，不上传
-./deploy.sh
-Set-Location 'F:\Github\Personal_Website'
-& 'C:\Program Files\Git\bin\bash.exe' ./deploy.sh
+# 构建并发布（PowerShell，可在任意目录运行）
+& 'C:\Program Files\Git\bin\bash.exe' 'F:/Github/Personal_Website/deploy.sh' --publish
 
-# 一键构建并发布（Git Bash）
+# 构建并生成本地 dist.tar.gz，不上传（PowerShell，可在任意目录运行）
+& 'C:\Program Files\Git\bin\bash.exe' 'F:/Github/Personal_Website/deploy.sh'
+
+# 构建并发布（Git Bash，在项目根目录运行）
 ./deploy.sh --publish
 
-# 一键构建并发布（PowerShell）
-Set-Location 'F:\Github\Personal_Website'
-& 'C:\Program Files\Git\bin\bash.exe' ./deploy.sh --publish
+# 构建并生成本地 dist.tar.gz，不上传（Git Bash，在项目根目录运行）
+./deploy.sh
 
 # 发布依赖 ssh hostwin；Windows 本地无需安装 rsync。
+# 发布使用独立的本地临时包，脚本退出时自动清理，不覆盖已有的 dist.tar.gz。
 # 脚本先备份线上目录，再覆盖同名文件，不删除线上多余文件。
 # 上传文件和备份保留在服务器的 /root/luoyegg-release.* 目录，需定期检查磁盘空间。
